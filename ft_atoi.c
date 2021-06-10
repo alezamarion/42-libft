@@ -6,34 +6,34 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/27 22:36:53 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/07 12:50:08 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/10 16:28:23 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+//#include "libft.h"
 
-int		ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
-	int i;
-	int o;
-	int r;
+	int			res;
+	int			sign;
+	int			i;
 
+	res = 0;
+	sign = 1;
 	i = 0;
-	o = 1;
-	r = 0;
-	while (str[i] == '\f' || str[i] == '\n' || str[i] == '\r'
-		|| str[i] == '\t' || str[i] == '\v' || str[i] == ' ')
+	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == '\r'
+		|| str[i] == '\v' || str[i] == '\f')
 		i++;
-	while (str[i] == '-' || str[i] == '+')
+	if (str[i] == '-' || str[i] == '+')
 	{
 		if (str[i] == '-')
-			o *= -1;
+			sign = -1;
 		i++;
 	}
-	while (str[i] > 47 && str[i] < 58)
+	while (str[i] >= '0' && str[i] <= '9')
 	{
-		r = (r * 10) + (str[i] - 48);
+		res = res * 10 + str[i] - '0';
 		i++;
 	}
-	return (o * r);
+	return (res * sign);
 }

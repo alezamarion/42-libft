@@ -6,15 +6,15 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 23:18:15 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/07 12:50:57 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/07 21:56:40 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_isprint(int c)
+int	ft_isprint(int c)
 {
 	if (c > 31 && c < 127)
-		return (1);	
+		return (1);
 	return (0);
 }

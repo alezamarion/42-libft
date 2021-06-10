@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/22 13:13:36 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/07 12:50:16 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/09 09:07:26 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	unsigned char *ptr;
-	ptr = s;
+	unsigned char	*ptr;
 
+	ptr = (unsigned char *)s;
 	while (n > 0)
 	{
 		*ptr = 0;

@@ -6,21 +6,18 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 17:07:35 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/07 12:51:41 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/09 09:45:46 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t		ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
-	size_t i;
+	size_t	i;
 
 	i = 0;
-	while (*s != '\0')
-	{
+	while (*(s++))
 		i++;
-		s++;
-	}
 	return (i);
 }

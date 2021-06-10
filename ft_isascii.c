@@ -6,15 +6,15 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 15:21:48 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/07 12:50:43 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/07 21:55:29 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_isascii(int c)
+int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 		return (1);
-	return (0);	
+	return (0);
 }

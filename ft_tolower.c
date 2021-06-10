@@ -6,15 +6,15 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/27 18:13:18 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/07 12:51:55 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/07 22:50:55 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_tolower(int c)
+int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		c += 32;
-	return (c);	
+	return (c);
 }

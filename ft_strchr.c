@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 21:12:06 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/07 12:51:23 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/09 10:11:01 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,5 @@ char	*ft_strchr(const char *s, int c)
 		s++;
 	if (c == *s)
 		return ((char *)s);
-	return (0);	
+	return (0);
 }
