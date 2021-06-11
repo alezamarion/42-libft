@@ -10,13 +10,39 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+The strchr() function locates the first occurrence of c (converted to a char) 
+in the string pointed to by s.  The terminating null character is considered to be part of 
+the string; therefore if c is `\0', the functions locate the terminating `\0'.
+
+RETURN VALUES
+The functions strchr() return a pointer to the located character, or NULL
+if the character does not appear in the string.
+*/
+
 #include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {
-	while (*s && c != *s)
-		s++;
-	if (c == *s)
+	
+	if (*s == (c % 256))
 		return ((char *)s);
-	return (0);
+	while (*s && *s != (c % 256))
+	{
+		s++;
+		if (*s == (c % 256))
+			return ((char *)s);
+	}
+	return (NULL);
+	/*
+	while (*s)
+	{
+		if (*s == (c % 256))
+			return ((char *)s);
+		s++;
+	}
+	if (*s == (c % 256))
+		return ((char *)s);
+	return (NULL);
+	*/
 }

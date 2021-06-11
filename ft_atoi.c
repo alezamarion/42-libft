@@ -10,7 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include "libft.h"
+/*
+The atoi() function converts the initial portion of the string pointed to by str to int representation.
+The ft_atoi() function returns the int representation of the string.
+*/
+
+#include "libft.h"
 
 int	ft_atoi(const char *str)
 {

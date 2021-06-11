@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+The strrchr() function is identical to strchr(), except it locates the last occurrence of c.
+RETURN VALUES
+The functions strrchr() return a pointer to the located character, or NULL 
+if the character does not appear in the string.
+*/
+
 #include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)

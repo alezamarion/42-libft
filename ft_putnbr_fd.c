@@ -10,6 +10,25 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+Parameters 
+#1. The integer to output.
+#2. The file descriptor on which to write.
+
+External functs
+write
+
+Description 
+Outputs the integer ’n’ to the given file descriptor.
+*/
+
+/*This function is exactly the same as our ft_putnbr function except that we
+ * will be using our ft_putchar_fd function instead of ft_putchar beacuse we 
+ * will be accepting a parameter for this function that is our file descriptor.
+ * I recommend learning how the ft_putnbr and ft_putchar_fd functions work in
+ * order to understand how this function works. The explanation of the inner
+ * workings of this function are the same as I gave for ft_putnbr.*/
+
 #include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)

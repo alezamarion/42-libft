@@ -10,6 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+This function creates a new element of a list.
+The ft_lstnew() function allocates (with malloc()) and returns a new element.
+The variable 'content' is initialized with the value of the parameter
+'content'. The variable 'next' is initialized to null.
+
+@param	void	*content	- content to create the new element with.
+@return						- The ft_lstnew() function returns the new element of the list.
+*/
+
 #include "libft.h"
 
 t_list	*ft_lstnew(void *content)
