@@ -10,6 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+This function joins two strings together.
+The ft_strjoin() alocates (with malloc(3)) and returns a new string, which
+is the result of the concatenation of ’s1’ and ’s2’.
+
+@param	const char	*s1		- prefix string.
+@param	const char	*s2		- suffix string.
+
+@returns - The ft_strjoin() function returns the new string, or null if the allocation fails.
+*/
+
 #include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)

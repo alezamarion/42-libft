@@ -23,8 +23,7 @@ if the character does not appear in the string.
 #include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
-{
-	
+{	
 	if (*s == (c % 256))
 		return ((char *)s);
 	while (*s && *s != (c % 256))
@@ -34,15 +33,4 @@ char	*ft_strchr(const char *s, int c)
 			return ((char *)s);
 	}
 	return (NULL);
-	/*
-	while (*s)
-	{
-		if (*s == (c % 256))
-			return ((char *)s);
-		s++;
-	}
-	if (*s == (c % 256))
-		return ((char *)s);
-	return (NULL);
-	*/
 }
