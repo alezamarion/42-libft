@@ -22,15 +22,15 @@ The ft_lstadd_back() function adds the element 'new' at the end of the list.
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
-	t_list	*tmp;
+	t_list *aux;
 
-	tmp = *lst;
-	if (!tmp)
-		*lst = new;
-	else
+	if (!new)
+		return ;
+	if (!*lst)
 	{
-		while (tmp->next)
-			tmp = tmp->next;
-		tmp->next = new;
+		*lst = new;
+		return ;
 	}
+	aux = ft_lstlast(*lst);
+	aux->next = new;
 }

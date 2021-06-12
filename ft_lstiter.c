@@ -22,9 +22,11 @@ The ft_lstiter() function iterates the list 'lst' and applies the function
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-	while (lst != 0)
+	if (!lst || !f)
+		return ;
+	while (lst)
 	{
 		f(lst->content);
 		lst = lst->next;
-	}	
+	}
 }

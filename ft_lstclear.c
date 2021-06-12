@@ -23,7 +23,7 @@ pointer to the list must be set to null.
 
 void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
-	t_list	*aux;
+	t_list *aux;
 
 	if (!*lst)
 		return ;

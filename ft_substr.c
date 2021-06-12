@@ -39,7 +39,10 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (s == 0)
 		return (0);
 	substr_len = ft_strlen(s);
-	substr = malloc((len + 1) * sizeof(char));
+	if (substr_len < len)
+		substr = (char *)malloc((substr_len + 1) * sizeof(char));
+	else
+		substr = (char *)malloc((len + 1) * sizeof(char));
 	if (substr == 0)
 		return (0);
 	while (i < len && (start + i) < substr_len)

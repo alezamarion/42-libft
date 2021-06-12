@@ -10,12 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* The memset() function fills the first len bytes of the memory area
-   pointed to by b with the constant byte c.
-   *b == ponteiro para a região de memória que será preenchida
-   c == valor usado para preencher a memória (será convertido para unsigned char para dar 1byte)
-   n == número de bytes que será preenchido, não necessariamente o tamanho da array
-   retorna cópia do ponteiro *b ou NULL em caso de erro
+/*
+This function fills a byte string with a byte value.
+The ft_memset() function writes len bytes of value c (converted to an unsigned char) to the string b.
+
+@param	void 	*b		- string that is going to be overwritten.
+@param	int 	c		- value (character) that is going to be written in b.
+@param	size_t 	len		- number of bytes that c is going to be written in b.
+
+@return				- the ft_memset function returns its first argument.
 */
 
 #include "libft.h"
