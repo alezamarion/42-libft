@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/10 16:54:08 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/10 17:05:51 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:01:04 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,12 +16,12 @@ to the content of each element. Creates a new list resulting of the
 successive applications of the function ’f’. The ’del’ function is used to
 delete the content of an element if needed.
 
-@param	t_list *lst			- adress of a pointer to an element.
-@param	void *(*f)(void *)	- adress of the function used to iterate on the
- 								list.
-@param	void (*del)(void *)	- adress of the function used to delete the 								content of an element instead.
-@return - The ft_lstmap() function returns the new list, or null if the	allocation fails.
+t_list *lst			- adress of a pointer to an element.
+void *(*f)(void *)	- adress of the function used to iterate on the list.
+void (*del)(void *)	- adress of the function used to delete the content of an element instead.
+return 				- The ft_lstmap() function returns the new list, or null if the	allocation fails.
 */
+
 
 #include "libft.h"
 

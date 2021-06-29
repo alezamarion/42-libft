@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/03 17:43:22 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/09 14:52:57 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:20:18 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,14 +20,12 @@ write
 
 Description 
 Outputs the integer ’n’ to the given file descriptor.
+
+Exactly the same as our ft_putnbr function except that we will be using our ft_putchar_fd 
+function instead of ft_putchar beacuse we will be accepting our file descriptor as a parameter 
+for this function.
 */
 
-/*This function is exactly the same as our ft_putnbr function except that we
- * will be using our ft_putchar_fd function instead of ft_putchar beacuse we 
- * will be accepting a parameter for this function that is our file descriptor.
- * I recommend learning how the ft_putnbr and ft_putchar_fd functions work in
- * order to understand how this function works. The explanation of the inner
- * workings of this function are the same as I gave for ft_putnbr.*/
 
 #include "libft.h"
 

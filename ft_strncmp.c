@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/25 13:08:41 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/09 13:31:50 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:28:51 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ The strcmp() and strncmp() functions return an integer greater than, equal to, o
 according as the string s1 is greater than, equal to, or less than the string s2.  
 The comparison is done using unsigned characters, so that `\200' is greater than `\0'.
 */
+
 
 #include "libft.h"
 

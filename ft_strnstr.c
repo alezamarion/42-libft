@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/05/30 16:30:45 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/09 13:25:06 by azamario         ###   ########.fr       */
+/*   Created: 2021/06/10 18:00:32 by azamario          #+#    #+#             */
+/*   Updated: 2021/06/29 16:29:07 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,26 +22,26 @@ If little is an empty string, big is returned; if little occurs nowhere in big, 
 otherwise a pointer to the first character of the first occurrence of little is returned.
 */
 
+
 #include "libft.h"
 
-char	*strnstr(const char *big, const char *little, size_t len)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
-	size_t	i;
-	size_t	j;
+	size_t	len_size;
 
-	i = 0;
-	if (!little[i])
+	len_size = ft_strlen(little);
+	if (len_size == 0)
 		return ((char *)big);
-	while (big[i] && i < len)
+	if (len_size > ft_strlen(big))
+		return (NULL);
+	while (*big && len)
 	{
-		j = 0;
-		while (little[j] == big[j + i] && i + j < len)
-		{
-			if (little[j + 1] == '\0')
-				return ((char *)big + i);
-			j++;
-		}
-		i++;
+		if (len_size > ft_strlen(big) || len < len_size)
+			return (NULL);
+		if (ft_strncmp(big, little, len_size) == 0 && len >= len_size)
+			return ((char *)big);
+		big++;
+		len--;
 	}
 	return (NULL);
 }

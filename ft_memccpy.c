@@ -6,18 +6,19 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 15:34:23 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/10 16:15:46 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:04:17 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
-     The memccpy() function copies bytes from string src to string dst.
-	 If the character c (as converted to an unsigned char) occurs in the string src, 
-	 the copy stops and a pointer to the byte after the copy of c in the string dst is returned. 
-	 Otherwise, n bytes are copied, and a NULL pointer is returned.
+    The memccpy() function copies bytes from string src to string dst.
+	If the character c (as converted to an unsigned char) occurs in the string src, 
+	the copy stops and a pointer to the byte after the copy of c in the string dst is returned. 
+	Otherwise, n bytes are copied, and a NULL pointer is returned.
 
 	The source and destination strings should not overlap, as the behavior is undefined.
 */
+
 
 #include "libft.h"
 

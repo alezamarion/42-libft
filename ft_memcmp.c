@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 16:27:58 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/09 09:43:23 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:07:28 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@ This function compares two string.
 The memcmp() function compares byte string s1 against byte string s2.  
 Both strings are assumed to be n bytes long.
 
-@param	const void	*s1		- string to be compared with s2.
-@param	const void	*s2		- string to be compared with s1.
-@param	size_t		n		- number of bytes to compare in each string.
+const void	*s1		- string to be compared with s2.
+const void	*s2		- string to be compared with s1.
+size_t		n		- number of bytes to compare in each string.
 
 @return
 	- The memcmp() function returns zero if the two strings are identical,
@@ -27,6 +27,7 @@ Both strings are assumed to be n bytes long.
 	is not required by C and portable code should only depend on the sign of
 	the returned value.
 */
+
 
 #include "libft.h"
 

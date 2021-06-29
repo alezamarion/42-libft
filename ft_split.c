@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/01 17:25:35 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/07 22:22:15 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:23:46 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ Description
 Allocates (with malloc(3)) and returns an array of strings obtained by splitting ’s’ using the
 character ’c’ as a delimiter. The array must be ended by a NULL pointer.
 */
+
 
 #include "libft.h"
 

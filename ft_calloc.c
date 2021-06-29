@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/28 21:49:46 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/09 14:04:22 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/29 15:55:14 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ memory. The allocated memory is filled with bytes of value zero.
 count = how many units
 size+ size of each block
 */
+
 
 #include "libft.h"
 

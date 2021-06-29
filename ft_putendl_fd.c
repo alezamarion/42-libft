@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/03 16:18:10 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/09 14:49:37 by azamario         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:17:57 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,14 +20,12 @@ write
 
 Description 
 Outputs the string ’s’ to the given file descriptor, followed by a newline.
+
+This function writes the string s to the file descriptor fd followed by a
+'\n' to make a new line. Using our ft_putstr_fd and ft_putchar_fd functions to 
+make this function work.
 */
 
-/*This function writes the string s to the file descriptor fd followed by a
- * '\n' to make a new line. This function is exactly the same as our ft_putendl
- * function except that we take in a parameter for the file descriptor. We will
- * use our ft_putstr_fd and ft_putchar_fd functions to make this function work.
- * Please review ft_putstr_fd and ft_putchar_fd to understand the inner
- * workings of this function.*/
 
 #include "libft.h"
 
