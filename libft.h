@@ -1,8 +1,19 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# ifndef OPEN_MAX
+#  define OPEN_MAX 256
+# endif
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 128
+# endif
+
 # include <stdlib.h>
+# include <stdio.h>
 # include <unistd.h>
+# include <fcntl.h>
+# include <bsd/string.h>
 
 /* Part one - Libc functions */
 
