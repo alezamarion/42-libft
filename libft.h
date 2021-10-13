@@ -41,6 +41,8 @@ int			ft_toupper(int c);
 int			ft_tolower(int c);
 void		*ft_calloc(size_t count, size_t size);
 char		*ft_strdup(const char *s1);
+int			ft_get_next_line(int fd, char **line);
+void		ft_super_free(void **ptr);
 
 /* Part two - Additional functions */
 
