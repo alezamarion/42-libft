@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 16:27:58 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:07:28 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:21:38 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ size_t		n		- number of bytes to compare in each string.
 	the returned value.
 */
 
-
 #include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
@@ -42,7 +41,9 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	{
 		if (*t1 != *t2)
 			return ((unsigned char)*t1 - (unsigned char)*t2);
-		t1++, t2++, n--;
+		t1++;
+		t2++;
+		n--;
 	}
 	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/02 22:06:52 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:28:19 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:23:37 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ Description
 Applies the function ’f’ to each character of the string ’s’ to create a new string (with malloc(3))
 resulting from successive applications of ’f’.
 */
-
 
 #include "libft.h"
 

@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 15:04:21 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:02:22 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:19:48 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@ The value of the argument must be representable as an unsigned char or the value
 RETURN VALUES
 The isdigit() return zero if the character tests false and return non-zero if the character tests true.
 */
-
 
 #include "libft.h"
 

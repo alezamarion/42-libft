@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/08 20:31:58 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:03:14 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:20:57 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ The variable 'content' is initialized with the value of the parameter
 void	*content	- content to create the new element with.
 return				- The ft_lstnew() function returns the new element of the list.
 */
-
 
 #include "libft.h"
 

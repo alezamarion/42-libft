@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/08 21:20:36 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 15:57:24 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:20:13 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ The ft_lstadd_back() function adds the element 'new' at the end of the list.
 t_list 	**lst	- address of a pointer to the first link of a list.
 t_list	*new	- address of a pointer to the element to be added to the list.
 */
-
 
 #include "libft.h"
 

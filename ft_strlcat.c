@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/28 18:20:49 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:27:06 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:23:20 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,6 @@ The strlcat() function returns the total length of the string it has
 tried to create - that means the initial length of dst plus the length
 of src.
 */
-
 
 #include "libft.h"
 

@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/10 18:01:14 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:24:38 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:23:07 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ The pointer may subsequently be used as an argument to the function free(3).
 
 If insufficient memory is available, NULL is returned and errno is set to ENOMEM.
 */
-
 
 #include "libft.h"
 

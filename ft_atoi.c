@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/27 22:36:53 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 15:53:16 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:25:51 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ The ft_atoi() function returns the int representation of the string.
 /*  After this we convert our string of characters from char to int so long as they
 	are numbers. If the character we are currently on is a number, we
 	converted it to its ascii numerical value. */
-	
+
 #include "libft.h"
 
 int	ft_atoi(const char *str)

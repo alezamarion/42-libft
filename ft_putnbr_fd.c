@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/03 17:43:22 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:20:18 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:22:28 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ Exactly the same as our ft_putnbr function except that we will be using our ft_p
 function instead of ft_putchar beacuse we will be accepting our file descriptor as a parameter 
 for this function.
 */
-
 
 #include "libft.h"
 

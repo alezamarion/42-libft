@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/10 16:50:44 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 15:59:26 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:20:39 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ The ft_lstiter() function iterates the list 'lst' and applies the function
 t_list	*lst		- address of a pointer to an element.
 void (*f)(void *)	- address of the function used to iterate on the list.
 */
-
 
 #include "libft.h"
 

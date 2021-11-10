@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/29 20:37:15 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:29:25 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:24:13 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ Description
 Allocates (with malloc(3)) and returns a copy of ’s1’ with the characters specified in ’set’ removed
 from the beginning and the end of the string.
 */
-
 
 #include "libft.h"
 

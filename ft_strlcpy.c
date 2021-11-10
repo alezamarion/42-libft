@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 19:07:23 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:27:40 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:23:27 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ Return Values
 The strlcpy() function return the total length of the string they tried to create. 
 That means the length of src.
 */
-
 
 #include "libft.h"
 

@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/25 13:08:41 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:28:51 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:24:06 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ according as the string s1 is greater than, equal to, or less than the string s2
 The comparison is done using unsigned characters, so that `\200' is greater than `\0'.
 */
 
-
 #include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
@@ -28,7 +27,9 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	{
 		if ((unsigned char)(*s1) != (unsigned char)(*s2))
 			return ((unsigned char)(*s1) - (unsigned char)(*s2));
-		n--, s1++, s2++;
+		n--;
+		s1++;
+		s2++;
 	}
 	if (n != 0 && (unsigned char)(*s1) != (unsigned char)(*s2))
 		return ((unsigned char)(*s1) - (unsigned char)(*s2));

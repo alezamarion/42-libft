@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/08 22:17:09 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:01:36 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:20:34 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@ and free the element. The memory of ’next’ must not be freed.
 t_list	*lst			- the element to free.
 void (*del)(void *)		- the address of the function used to delete the content.
 */
-
 
 #include "libft.h"
 

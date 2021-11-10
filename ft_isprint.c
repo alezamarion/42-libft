@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 23:18:15 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 15:54:57 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:19:55 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,6 @@ RETURN VALUES
 The isprint() function returns zero if the character tests false and returns
 non-zero if the character tests true.
 */
-
 
 #include "libft.h"
 

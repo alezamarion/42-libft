@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/10 18:00:32 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:29:07 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:23:46 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ RETURN VALUES
 If little is an empty string, big is returned; if little occurs nowhere in big, NULL is returned; 
 otherwise a pointer to the first character of the first occurrence of little is returned.
 */
-
 
 #include "libft.h"
 

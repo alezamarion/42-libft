@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 22:13:29 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:29:56 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:23:52 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@ RETURN VALUES
 The functions strrchr() return a pointer to the located character, or NULL 
 if the character does not appear in the string.
 */
-
 
 #include "libft.h"
 

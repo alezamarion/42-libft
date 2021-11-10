@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/22 18:03:11 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:08:11 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:21:50 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ size_t		n		- number of bytes to be copied from src to dst.
 
 return				- The memcpy() function returns the original value of dst.
 */
-
 
 #include "libft.h"
 

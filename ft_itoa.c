@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/01 21:24:05 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:01:48 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:19:59 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ This function allocates memory and returns a 'fresh' string of characters
 terminated with a '\0' that is the char equivalent of the int passed in
 the parameter. Negative numbers should be managed as well. If the allocation
 fails the function will return NULL. */
-
 
 #include "libft.h"
 

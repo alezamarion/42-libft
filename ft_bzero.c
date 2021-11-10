@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/22 13:13:36 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 15:55:18 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:19:21 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
     starting at the location pointed to by s, by writing zeros (bytes
     containing '\0') to that area.
 */
-
 
 #include "libft.h"
 

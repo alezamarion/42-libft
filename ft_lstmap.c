@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/10 16:54:08 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:01:04 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:20:49 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ void *(*f)(void *)	- adress of the function used to iterate on the list.
 void (*del)(void *)	- adress of the function used to delete the content of an element instead.
 return 				- The ft_lstmap() function returns the new list, or null if the	allocation fails.
 */
-
 
 #include "libft.h"
 

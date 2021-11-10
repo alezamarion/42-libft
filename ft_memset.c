@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/21 18:17:27 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:10:46 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:22:12 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ size_t 	len		- number of bytes that c is going to be written in b.
 
 return			- the ft_memset function returns its first argument.
 */
-
 
 #include "libft.h"
 

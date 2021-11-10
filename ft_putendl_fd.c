@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/03 16:18:10 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:17:57 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:22:22 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ This function writes the string s to the file descriptor fd followed by a
 '\n' to make a new line. Using our ft_putstr_fd and ft_putchar_fd functions to 
 make this function work.
 */
-
 
 #include "libft.h"
 

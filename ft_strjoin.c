@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/29 20:41:00 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:25:47 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:23:13 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ const char	*s2		- suffix string.
 
 returns 			- The ft_strjoin() function returns the new string, or null if the allocation fails.
 */
-
 
 #include "libft.h"
 

@@ -6,7 +6,7 @@
 /*   By: azamario <azamario@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 15:34:23 by azamario          #+#    #+#             */
-/*   Updated: 2021/06/29 16:04:17 by azamario         ###   ########.fr       */
+/*   Updated: 2021/11/10 01:21:08 by azamario         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 
 	The source and destination strings should not overlap, as the behavior is undefined.
 */
-
 
 #include "libft.h"
 
