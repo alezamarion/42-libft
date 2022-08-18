@@ -10,7 +10,7 @@ The most part is in C library (see man). Others are'nt in the C library but it w
 
 ## Badge
 
-<img src="libftm.png">
+<img src="libft.png">
 
 ## SKills
 
